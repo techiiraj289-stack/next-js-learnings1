@@ -25,12 +25,13 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
+  "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
+  "global.d.ts",
     ".next/dev/types/**/*.ts"
-  ],
+, "app/dashboard/customers"  ],
   "exclude": ["node_modules"]
 }
